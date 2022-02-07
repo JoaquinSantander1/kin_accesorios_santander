@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../fuente/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: "Caviar";
+  src: url(../fuente/CaviarDreams.ttf);
+}
+
+header {
+  background-image: url(../img/27475-blancos.jpg);
+  width: 100%;
+}
+
+/* Titulo de bienvenida */
+
+.textoPrincipal {
+  font-size: 400%;
+  font-family: "Coolvetica";
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2px;
+  padding: 1% 2% 0% 2%;
+  text-align: center;
+  animation-name: tituloPrincipal;
+  animation-iteration-count: 1;
+  animation-duration: 900ms;
+}
+
+@keyframes tituloPrincipal {
+  from {
+    transform: translate(-200px);
+    opacity: 0;
+    font-size: 100%;
+  }
+
+  to {
+    transform: translate(center);
+    opacity: 1;
+    font-size: 400%;
+  }
+
+}
+
+/* Foto de logo */
+
+.imagenPrincipal {
+  margin-left: 42%;
+  margin-bottom: 1vh;
+  padding-left: 1%;
+  animation-name: imagenlogo;
+  animation-iteration-count: 1;
+  animation-duration: 1200ms;
+}
+
+@keyframes imagenlogo {
+  from {
+    transform: translate(-300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(center);
+    opacity: 1;
+  }
+
+}
+
+/* Navegador Index */
+
+.navegadorPrincipal {
+  padding: 1%;
+  background-color: black;
+  color: white;
+  font-family: "caviar";
+  font-weight: bold;
+  font-size: 135%;
+  text-align: center;
+}
+
+.navIndex {
+  margin: 6%;
+}
+
+a {
+  transition: all 700ms;
+}
+
+a:hover {
+  font-size: 24px;
+  background-image: linear-gradient(135deg, #00b712 0%, #26977f 74%);
+}
+
+/* Navegador de otras paginas */
+
+li {
+  text-align: end;
+  display: block;
+  position: relative;
+  width: 25%;
+  left: 147vh;
+}
+
+/* INDEX */
+.imagen1 {
+  width: 55%;
+  height: 49%;
+  transition: width 1s;
+}
+
+.imagen1:hover {
+  width: 63%;
+}
+
+.imagen2 {
+  width: 55%;
+  height: 49%;
+  transition: width 1s;
+}
+
+.imagen2:hover {
+  width: 63%;
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  background-color: black;
+  color: red;
+}
+
+/* Menú */
+
+main {
+  padding: 8px;
+  text-align: center;
+  font-family: "caviar";
+  font-size: 18px;
+  color: white;
+  background-image: linear-gradient(135deg, #00b712 0%, #26977f 74%);
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: "caviar";
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* ¿Quienes somos? */
+
+.menuQS {
+  margin-left: 38%;
+  padding: 4px;
+  color: black;
+  background-color: white;
+}
+
+.tituloQS {
+  font-size: 150%;
+  padding-left: 41%;
+  text-align: center;
+  margin-top: 30%;
+}
+
+/* Listado de Productos */
+.menuLDP {
+  margin-left: 35%;
+  padding: 4px;
+  color: black;
+  background-color: white;
+}
+
+.tituloLDP {
+  font-size: 150%;
+  padding-left: 39%;
+  text-align: center;
+  margin-top: 30%;
+}
+
+.fotosLDP {
+  padding: 1% 1% 3%;
+}
+
+/* Descuentos por cantidad */
+
+.menuDC {
+  margin-left: 33%;
+  padding: 4px;
+  color: black;
+  background-color: white;
+}
+
+.tituloDC {
+  font-size: 150%;
+  padding-left: 38%;
+  text-align: center;
+  margin-top: 30%;
+}
+
+/* Contacto */
+
+.menuC {
+  margin-left: 40%;
+  padding: 4px;
+  color: black;
+  background-color: white;
+}
+
+.tituloC {
+  font-size: 150%;
+  padding-left: 44%;
+  text-align: center;
+  margin-top: 30%;
+}
+
+
+
+article {
+  margin: 10px 0px 20px;
+}
+
+
+h2 {
+  padding-top: 12px;
+}
